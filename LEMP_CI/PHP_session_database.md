@@ -16,7 +16,7 @@ Error Encountered During the Migration of CI3 Code to a Newer LEMP Environment f
 ## Cause
 
 Return type of CI_Session_database_driver didnt match the expected return type of 'bool' specified in the SesstionHanderInterface.
-Probably I happened becuse I used a different(newer) version of PHP.
+Probably It happened because I used a different(newer) version of PHP.
 
 ----
 ## Solutions
