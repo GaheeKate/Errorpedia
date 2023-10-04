@@ -2,31 +2,15 @@ https://datatables.net/forums/discussion/50678/how-to-show-less-text-in-each-col
 
 css:
 
-Plain text
-1
-2
-3
-4
-5
-6
+``` js
 .truncate {
   max-width:50px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-and JavaScript:
 
-Plain text
-1
-2
-3
-4
-5
-6
-7
-8
-9
+and JavaScript:
 $(document).ready( function () {
   var table = $('#example').DataTable({
     columnDefs:[{targets:1,className:"truncate"}],
@@ -36,3 +20,5 @@ $(document).ready( function () {
   }
   });
 } );
+
+```
